@@ -13,18 +13,11 @@ Text Domain: advanced-options-toggle
 
 function wtd_enqueue(){
     wp_enqueue_script( 'ajax-script',
-        plugins_url( '/js/myjs3.js', __FILE__ ),
+        plugins_url( '/js/myjs.js', __FILE__ ),
         array( 'jquery' )
     );
 }
 add_action( 'admin_enqueue_scripts', 'wtd_enqueue' );
-
-/* 
-function wtd_enqueue_styles(){
-		wp_enqueue_style( 'aotstyle', plugin_dir_url( __FILE__ ) . 'aotstyle.css' );
-}
-add_action( 'admin_enqueue_scripts', 'wtd_enqueue_styles' );
-*/
 
 function wtd_toggle($wp_admin_bar){
 	$args = array(

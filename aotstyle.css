@@ -1,3 +1,0 @@
-.togglejs #screen-meta-links, .togglejs #adminmenu li:not(.wp-menu-separator):not(#menu-pages):not(#menu-posts):not(#menu-media):not(#menu-dashboard),#wpadminbar li:not(#wp-admin-bar-menu-toggle):not(#wp-admin-bar-wp-logo):not(#wp-admin-bar-site-name):not(#wp-admin-bar-advanced-options) {
-	display: none;
-}
